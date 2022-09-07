@@ -19,7 +19,7 @@ function buildGroth16() {
 }
 
 function getEns() {
-  const provider = new Web3.providers.HttpProvider(networkConfig.netId1.rpcUrls.Infura.url)
+  const provider = new Web3.providers.HttpProvider("https://cloudflare-eth.com/v1/mainnet")
   return new ENS({ provider, ensAddress: getEnsAddress('1') })
 }
 

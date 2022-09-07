@@ -1,12 +1,3 @@
-const {
-  INFURA_KEY,
-  ALCHEMY_MAINNET_KEY,
-  ALCHEMY_POLYGON_KEY,
-  ALCHEMY_OPTIMISM_KEY,
-  ALCHEMY_ARBITRUM_KEY,
-  ALCHEMY_GOERLI_KEY
-} = process.env
-
 export default {
   netId1: {
     rpcCallRetryAttempt: 15,
@@ -28,14 +19,6 @@ export default {
     networkName: 'Ethereum Mainnet',
     deployedBlock: 9116966,
     rpcUrls: {
-      Infura: {
-        name: 'Infura',
-        url: `https://mainnet.infura.io/v3/${INFURA_KEY}`
-      },
-      Alchemy: {
-        name: 'Alchemy',
-        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_MAINNET_KEY}`
-      }
     },
     multicall: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
     registryContract: '0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2',
@@ -148,18 +131,6 @@ export default {
     multicall: '0x41263cba59eb80dc200f3e2544eda4ed6a90e76c',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
-      publicRpc1: {
-        name: 'BSC Public RPC 1',
-        url: 'https://bsc-dataseed.binance.org/'
-      },
-      publicRpc2: {
-        name: 'BSC Public RPC 2',
-        url: 'https://bsc-dataseed1.defibit.io/'
-      },
-      publicRpc3: {
-        name: 'BSC Public RPC 3',
-        url: 'https://bsc-dataseed1.ninicoin.io/'
-      }
     },
     tokens: {
       bnb: {
@@ -203,14 +174,6 @@ export default {
     multicall: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
-      Infura: {
-        name: 'Infura',
-        url: `https://polygon-mainnet.infura.io/v3/${INFURA_KEY}`
-      },
-      Alchemy: {
-        name: 'Alchemy',
-        url: `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_POLYGON_KEY}`
-      }
     },
     tokens: {
       matic: {
@@ -255,14 +218,6 @@ export default {
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     ovmGasPriceOracleContract: '0x420000000000000000000000000000000000000F',
     rpcUrls: {
-      Alchemy: {
-        name: 'Alchemy',
-        url: `https://opt-mainnet.g.alchemy.com/v2/${ALCHEMY_OPTIMISM_KEY}`
-      },
-      Infura: {
-        name: 'Infura',
-        url: `https://optimism-mainnet.infura.io/v3/${INFURA_KEY}`
-      }
     },
     tokens: {
       eth: {
@@ -309,14 +264,6 @@ export default {
       Arbitrum: {
         name: 'Arbitrum Public RPC',
         url: 'https://arb1.arbitrum.io/rpc'
-      },
-      Alchemy: {
-        name: 'Alchemy',
-        url: `https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_ARBITRUM_KEY}`
-      },
-      Infura: {
-        name: 'Infura',
-        url: `https://arbitrum-mainnet.infura.io/v3/${INFURA_KEY}`
       }
     },
     tokens: {
@@ -361,10 +308,6 @@ export default {
     multicall: '0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
-      publicRpc: {
-        name: 'Gnosis Chain RPC',
-        url: 'https://rpc.gnosischain.com/tornado'
-      }
     },
     tokens: {
       xdai: {
@@ -455,10 +398,6 @@ export default {
     echoContractAccount: '0x37e6859804b6499d1e4a86d70a5fdd5de6a0ac65',
     aggregatorContract: '0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2',
     rpcUrls: {
-      Alchemy: {
-        name: 'Alchemy',
-        url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_GOERLI_KEY}`
-      }
     },
     tokens: {
       eth: {
