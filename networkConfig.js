@@ -19,6 +19,14 @@ export default {
     networkName: 'Ethereum Mainnet',
     deployedBlock: 9116966,
     rpcUrls: {
+      Securerpc: {
+        name: 'Securerpc',
+        url: `https://api.securerpc.com/v1`
+      },
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.<br>Get a snapshot from http://archivenode.net',
+        url: `http://localhost/`
+      }
     },
     multicall: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
     registryContract: '0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2',
@@ -131,6 +139,10 @@ export default {
     multicall: '0x41263cba59eb80dc200f3e2544eda4ed6a90e76c',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.<br>Get a snapshot from https://github.com/ledgerwatch/erigon-snapshot',
+        url: `http://localhost/`
+      }
     },
     tokens: {
       bnb: {
@@ -174,6 +186,10 @@ export default {
     multicall: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.<br>Get a snapshot from https://github.com/ledgerwatch/erigon-snapshot',
+        url: `http://localhost/`
+      }
     },
     tokens: {
       matic: {
@@ -218,6 +234,10 @@ export default {
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     ovmGasPriceOracleContract: '0x420000000000000000000000000000000000000F',
     rpcUrls: {
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.',
+        url: `http://localhost/`
+      }
     },
     tokens: {
       eth: {
@@ -261,6 +281,10 @@ export default {
     multicall: '0x842eC2c7D803033Edf55E478F461FC547Bc54EB2',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.',
+        url: `http://localhost/`
+      },
       Arbitrum: {
         name: 'Arbitrum Public RPC',
         url: 'https://arb1.arbitrum.io/rpc'
@@ -308,6 +332,10 @@ export default {
     multicall: '0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a',
     echoContractAccount: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
     rpcUrls: {
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.<br>Get a full‑node snapshot from http://getblockchain.download',
+        url: `http://localhost/`
+      }
     },
     tokens: {
       xdai: {
@@ -354,6 +382,14 @@ export default {
       publicRpc: {
         name: 'Avalanche RPC',
         url: 'https://api.avax.network/ext/bc/C/rpc'
+      },
+      Securerpc: {
+        name: 'Securerpc',
+        url: `https://api.securerpc.com/v1`
+      },
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc.<br>Get a snapshot from https://youravaxsnapshot.senseinode.com/avalanche_mainnet_20220904.tar',
+        url: `http://localhost/`
       }
     },
     tokens: {
@@ -398,6 +434,10 @@ export default {
     echoContractAccount: '0x37e6859804b6499d1e4a86d70a5fdd5de6a0ac65',
     aggregatorContract: '0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2',
     rpcUrls: {
+      Home_Hosted: {
+        name: 'Your own non‑censoring rpc. Get a snapshot from https://github.com/ledgerwatch/erigon-snapshot',
+        url: `http://localhost/`
+      }
     },
     tokens: {
       eth: {
