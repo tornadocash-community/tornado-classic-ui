@@ -45,7 +45,7 @@
                 <b-button
                   tag="a"
                   type="is-icon"
-                  href="https://discord.com/invite/TFDrM8K42j"
+                  href="https://tornadocash.community"
                   target="_blank"
                   rel="noopener noreferrer"
                   icon-right="discord"
