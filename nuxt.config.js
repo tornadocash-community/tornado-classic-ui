@@ -187,12 +187,6 @@ export default {
       new webpack.IgnorePlugin(/worker_threads/),
       new webpack.DefinePlugin({
         'process.env': JSON.stringify({
-          INFURA_KEY: process.env.INFURA_KEY,
-          ALCHEMY_MAINNET_KEY: process.env.ALCHEMY_MAINNET_KEY,
-          ALCHEMY_POLYGON_KEY: process.env.ALCHEMY_POLYGON_KEY,
-          ALCHEMY_OPTIMISM_KEY: process.env.ALCHEMY_OPTIMISM_KEY,
-          ALCHEMY_ARBITRUM_KEY: process.env.ALCHEMY_ARBITRUM_KEY,
-          ALCHEMY_GOERLI_KEY: process.env.ALCHEMY_GOERLI_KEY,
           WC_BRIDGE: process.env.WC_BRIDGE,
           OLD_STORE_NAME: process.env.OLD_STORE_NAME,
           STORE_NAME: process.env.STORE_NAME,

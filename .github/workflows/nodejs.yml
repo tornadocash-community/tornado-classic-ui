@@ -32,12 +32,6 @@ jobs:
       - name: Build
         run: yarn generate
         env:
-          INFURA_KEY: ${{ secrets.INFURA_KEY }}
-          ALCHEMY_MAINNET_KEY: ${{ secrets.ALCHEMY_MAINNET_KEY }}
-          ALCHEMY_POLYGON_KEY: ${{ secrets.ALCHEMY_POLYGON_KEY }}
-          ALCHEMY_OPTIMISM_KEY: ${{ secrets.ALCHEMY_OPTIMISM_KEY }}
-          ALCHEMY_ARBITRUM_KEY: ${{ secrets.ALCHEMY_ARBITRUM_KEY }}
-          ALCHEMY_GOERLI_KEY: ${{ secrets.ALCHEMY_GOERLI_KEY }}
           WC_BRIDGE: ${{ secrets.WC_BRIDGE }}
           OLD_STORE_NAME: ${{ secrets.OLD_STORE_NAME }}
           STORE_NAME: ${{ secrets.STORE_NAME }}
