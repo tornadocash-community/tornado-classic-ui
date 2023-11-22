@@ -676,6 +676,16 @@ const actions = {
       dispatch('updateEvents', { ...params, type: eventsType.DEPOSIT })
     ])
 
+    const index = eventsData.events.findIndex((e) => e.leafIndex === 51576)
+
+    eventsData.events.splice(index + 1, 0, {
+      timestamp: '1661850816',
+      commitment: '0x0327e815deb9e90c88860561147d661905b28853fd996f0add1769b00226d0d4',
+      leafIndex: 51577,
+      blockNumber: 15439539,
+      transactionHash: '0xd20351a0e2a9a3f40cb1f55236b30185184587b05551e5e4399c4dbf7aa3ca95'
+    })
+
     const commitments = eventsData.events.map((el) => el.commitment.toString(10))
 
     let tree = cachedTree
